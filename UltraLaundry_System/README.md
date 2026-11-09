@@ -10,7 +10,9 @@ Beranda, Kasir & Transaksi, Kategori & Layanan, Data Pelanggan.
 **Cara 2 (manual):**
 ```powershell
 cd "D:\SEMESTER 5\PEMROGRAMAN\M5\UltraLaundry_System"
-python -m streamlit run app.py
+python -m streamlit run app.py     # Aplikasi lengkap 4 menu
+# atau jalankan form pemesanan langsung:
+python -m streamlit run order.py   # Modul order / kasir mandiri
 ```
 
 Buka browser ke `http://localhost:8501` kalau tidak terbuka otomatis.
@@ -29,7 +31,8 @@ Untuk memulai dari nol: tutup aplikasi, hapus `ultra_laundry.db`, jalankan lagi.
 
 ## Struktur file
 ```
-app.py             -> seluruh aplikasi (logika DB, UI, HTML/CSS)
+app.py             -> seluruh aplikasi utama (dashboard, kasir, master, pelanggan)
+order.py           -> modul / form pemesanan laundry Streamlit mandiri
 requirements.txt   -> daftar dependensi
 run.bat            -> launcher Windows
 ultra_laundry.db   -> database SQLite (dibuat otomatis)

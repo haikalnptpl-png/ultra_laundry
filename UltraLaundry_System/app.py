@@ -278,7 +278,7 @@ with st.sidebar:
     menu = st.radio(
         label="Pilih Halaman",
         options=[
-            "🏠 Beranda (Dashboard)",
+            "🏠 Beranda",
             "🧺 Kasir & Transaksi",
             "🏷️ Kategori & Layanan",
             "👥 Data Pelanggan"
@@ -292,7 +292,7 @@ with st.sidebar:
 # =============================================================================
 # HALAMAN 1: BERANDA (DASHBOARD ANALYTICS)
 # =============================================================================
-if menu == "🏠 Beranda (Dashboard)":
+if menu == "🏠 Beranda":
     st.markdown("""
         <div class="main-header">
             <h1>🏠 Dashboard & Analitik Operasional</h1>
