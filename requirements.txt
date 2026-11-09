@@ -1,0 +1,7 @@
+# Dependensi wajib
+streamlit>=1.30
+pandas>=2.0
+
+# Opsional: kalau terpasang, grafik dashboard memakai Plotly (lebih interaktif).
+# Kalau tidak terpasang, aplikasi otomatis memakai grafik bawaan Streamlit.
+plotly>=5.0
